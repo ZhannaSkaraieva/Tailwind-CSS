@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Подключение tailwindcss.com-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--Подключение Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Montserrat", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <title>TAILWIND</title>
+  </head>
+
+  <body class="max-w-[1920px] h-dvh">
+    <header>
+      <section
+        class="size-full h-48 border flex bg-black mt-56 justify-start box-border"
+      >
+        <div class="max-w-[690px] h-28 mt-12 mb-7 ml-14 box-border flex">
+          <p class="text-white text-center text-8xl font-bold not-italic flex">
+            AV-AVIONICS
+          </p>
+        </div>
+        <div class="max-w-[1140px] h-32 mt-5 ml-14 box-border">
+          <div class="max-w-[1080px] mt-4 ml-11">
+            <p class="text-white not-italic font-black text-3xl">
+              Reach the heights of free flight with our advanced technologies.
+            </p>
+          </div>
+          <div class="max-w-[1080px] h-8 mt-4 ml-11 flex justify-start">
+            <div class="w-[566px] h-8 flex justify-between">
+              <p
+                class="text-slate-500 leading-7 text-2xl not-italic font-medium tracking-wider"
+              >
+                Get in touch with us
+              </p>
+              <a
+                class="text-sky-500 leading-7 text-2xl not-italic font-medium"
+                href="tel:+38 (095) 018-36-43"
+                >+38 (095) 018-36-43</a
+              >
+            </div>
+            <div
+              class="text-sky-500 leading-7 text-2xl not-italic font-medium underline justify-end pl-10 shadow-[0px 4px 4px 0px rgba(0, 0, 0, 0.25)]"
+            >
+              <a href="mailto:avavionicscompany@gmail.com"
+                >avavionicscompany@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="max-w-[1903px] border border-black border-solid">
+          <img
+            class="bg-cover"
+            src="img/Снимок экрана 2024-04-27 в 15.27 1.png"
+            alt="Снимок экрана"
+          />
+        </div>
+      </section>
+      <section>
+        <div
+          class="max-w-[610px] h-28 flex box-border text-sky-500 text-center text-6xl not-italic font-semibold mt-1.5 ml-4 justify-center items-center"
+        >
+          <p class="">AVIATION VIEW</p>
+        </div>
+      </section>
+      <!--<section class="conteiner">
+        <div class="item1">ghbm,m</div>
+        <div class="item2">bjhblknlkm</div>
+        <div class="item3">jhljljk</div>
+        <div class="item4">vjhljh</div>9
+      </section>-->
+      <section>
+        <div
+          class="max-w-[1920px] h-[386px] box-border flex flex-row justify-center items-center"
+        >
+          <div
+            class="basis-1/2 flex justify-center items-center rounded-xl bg-slate-100 box-border ml-12 flex-col"
+          >
+            <div>
+              <h2>HARDWARE DEVELOPMENT</h2>
+              <p>
+                The process of designing and creating physical electronic
+                components and systems.
+              </p>
+            </div>
+            <div class= "flex  justify-center items-center">
+              <img src="img/image 3.png" alt="Снимок экрана" />
+              <img src="img/image 6.png" alt="Снимок экрана" />
+              <img src="img/image 9.png" alt="Снимок экрана" />
+            </div>
+          </div>
+          <div
+            class="basis-1/2 flex justify-center items-center rounded-xl box-border ml-36 mr-16"
+          >
+            <img
+              src="img/Снимок экрана 2024-01-05 в 13.20 1.png"
+              alt="Снимок экрана"
+            />
+          </div>
+        </div>
+        <div
+          class="max-w-[1920px] h-[386px] box-border flex flex-row justify-center items-center"
+        >
+          <div
+            class="basis-1/2 flex justify-center items-center rounded-xl bg-slate-100 ml-12 box-border"
+          >
+            software
+          </div>
+          <div
+            class="basis-1/2 flex justify-center items-center rounded-xl bg-slate-100 ml-36 mr-16 box-border"
+          >
+            modeling
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>
